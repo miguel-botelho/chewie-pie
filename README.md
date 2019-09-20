@@ -13,3 +13,4 @@ Run the following command: `go get github.com/pilu/fresh`
 ## Run the application
 Run the following command: `python3 python/server.py`
 Run the following command: `cd golang; fresh`
+ 

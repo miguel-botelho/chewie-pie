@@ -18,7 +18,7 @@ func main() {
 		log.Println(string(body))
 
 		w.WriteHeader(200)
-		w.Write([]byte(`These are not the droids you're looking for`))
+		w.Write([]byte(`These are the droids you're looking for`))
 	})
 
 	http.ListenAndServe(":5000", nil)
